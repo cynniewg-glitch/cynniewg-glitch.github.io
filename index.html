@@ -3,72 +3,367 @@
 
 <head>
 
-<title>Xinyi's Website</title>
+<meta name="citation_title"
+content="Optimized Automated Suture Needle Segmentation and Re-grasping Using the Da Vinci System">
 
-<style>
+<meta name="citation_author" content="Xinyi Wang">
+<meta name="citation_author" content="Richard Voyles">
+<meta name="citation_author" content="Juan Wachs">
 
-body{
-background:#FFF3A6;
-font-family:Comic Sans MS;
-text-align:center;
-margin:40px;
-}
+<meta name="citation_publication_date" content="2024">
 
-h1{
-color:#FF4E50;
-font-size:50px;
-}
+<meta name="citation_conference_title"
+content="ICRA@40 Extended Abstract">
 
-.card{
-background:white;
-border:4px solid black;
-border-radius:20px;
-padding:20px;
-margin:20px auto;
-width:600px;
-box-shadow:6px 6px 0 black;
-}
+<meta name="citation_pdf_url"
+content="https://cynniewg-glitch.github.io/assets/papers/icra2024_suture.pdf">
 
-button{
-background:#4FC3F7;
-border:3px solid black;
-border-radius:15px;
-padding:10px 20px;
-font-size:18px;
-cursor:pointer;
-}
 
-button:hover{
-background:#FF8A80;
-}
+<meta charset="UTF-8">
+<title>Xinyi Wang</title>
 
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
-
+<script src="script.js"></script>
 <body>
 
-<h1>Welcome to Xinyi's World!</h1>
+<nav class="navbar">
 
-<div class="card">
+<div class="nav-left">
+Xinyi Wang
+</div>
 
-<p>PhD Student in Robotics 🤖</p>
+<div class="nav-right">
 
-<p>I study Human-Robot Interaction!</p>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
 
-<button>My Projects</button>
+<a href="#experience">Experience</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
 
 </div>
 
-<div class="card">
+</nav>
 
-<h2>Research</h2>
 
-<p>Human-Multi Robot Interaction</p>
+<section class="hero">
 
-<p>Surgical Robotics</p>
+<h1>Hello! I'm Xinyi</h1>
+
+<p>PhD Student at Purdue University</p>
+
+</section>
+
+
+<section id="about" class="section">
+
+<h2>About Me</h2>
+
+<div class="about-container">
+
+<div class="about-text">
+
+<p>
+I am a PhD student in the College of Engineering at Purdue University working on human-centered robotics and interactive AI systems. My research explores how large language models can be integrated with robotic perception and control to enable natural and intuitive human–robot collaboration.
+</p>
+
+<p>
+I am particularly interested in human–multi-robot interaction, multimodal interfaces, and AI-assisted skill learning.
+</p>
+
+<p>
+Before joining Purdue, I received my MS in Robotics and Control from Northwestern University and my BS in Energy and Power Engineering from Xi’an Jiaotong University.
+</p>
 
 </div>
+<div class="photo-frame">
+
+<button class="arrow left" onclick="prevPhoto()">‹</button>
+
+<img id="gallery-photo" src="images/selfie/xyw.png">
+
+<button class="arrow right" onclick="nextPhoto()">›</button>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="research" class="section">
+
+<h2>Research Interests</h2>
+
+<p>
+Human–Robot Interaction (HRI), Human–Multi-Robot Interaction,
+Large Language Models for Robotics, Multimodal Human–AI Interaction,
+AI-Assisted Skill Learning, Surgical Robotics
+</p>
+
+</section>
+
+
+
+<section id="publications" class="section">
+<h2>Publications</h2>
+<div class="publication">
+
+<div class="pub-image">
+<img src="assets/Figures/CHI26EA.png">
+</div>
+
+<div class="pub-text">
+
+<b>
+Towards Design Guidelines for Natural-Language-Based Human-Multi-Robot Collaboration in Domestic Environments
+</b>
+
+<p>
+Xinyi Wang*, Shao-Kang Hsia*, Ziyi Liu*, Chenfei Zhu, Zhengzhe Zhu, Xiyun Hu,
+Anastasia Kouvaras Ostrowski, Karthik Ramani
+</p>
+
+<p>
+ACM CHI 2026 Extended Abstract
+</p>
+
+<p>
+
+<a href="#">[Project Page coming soon]</a>
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="publication">
+
+<div class="pub-image">
+
+<img src="assets/Figures/interactions.png">
+
+</div>
+
+<div class="pub-text">
+
+<b>
+Towards Natural Language Environment: Understanding Seamless Natural-Language-Based Human–Multi-Robot Interactions
+</b>
+
+<p>
+Ziyi Liu*, Xinyi Wang*, Shao-Kang Hsia*, Chenfei Zhu, Zhengzhe Zhu,
+Zhengzhe Zhu, Xiyun Hu, Anastasia Kouvaras Ostrowski, Karthik Ramani
+</p>
+
+<p>
+arXiv preprint, 2026
+</p>
+
+<p>
+
+<a href="https://arxiv.org/abs/2601.13338">[arXiv]</a>
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="publication">
+
+<div class="pub-image">
+<img src="assets/Figures/AgentCoach.png">
+</div>
+<div class="pub-text">
+
+<b>AgentCoach: LLM-Based Adaptive Coaching Feedback for Motor Skill Learning
+</b>
+
+<p>
+Dizhi Ma*, Jiakun Yu*, Xinyi Wang, Xiyun Hu, Liang He, Sooyeon Jeong, Karthik Ramani
+</p>
+
+<p>
+ACM CHI 2026
+</p>
+
+<p>
+<a href="#">[Project Page coming soon]</a>
+
+</p>
+
+</div>
+</div>
+
+
+<div class="publication">
+
+<div class="pub-image">
+<img src="assets/Figures/JustShape.png">
+</div>
+
+<div class="pub-text">
+
+<b>
+JustShape: Exploring Co-Speech Gestures for Multimodal LLM-Empowered Generative Parametric Modeling
+</b>
+
+<p>
+Runlin Duan, Yuzhao Chen, Yichen Hu, Ziyi Liu, Chenfei Zhu, Xiyun Hu,
+Dizhi Ma, Xinyi Wang, Karthik Ramani
+</p>
+
+<p>
+ACM CHI 2026 — Honorable Mention
+</p>
+
+<p>
+<a href="#">[Project Page coming soon]</a>
+</p>
+
+</div>
+
+</div>
+
+<div class="card publication">
+
+<b>
+Optimized Automated Suture Needle Segmentation and Re-grasping Using the Da Vinci System
+</b>
+
+<p>
+Xinyi Wang, Richard Voyles, Juan Wachs
+</p>
+
+<p>
+ICRA@40 Extended Abstract, 2024
+</p>
+
+<a class="paper-link" href="assets/papers/icra2024_suture.pdf">
+[PDF]
+</a>
+
+</div>
+</section>
+
+
+
+
+
+<section id="experience" class="section">
+<h2>Working Experience</h2>
+<div class="card experience-card">
+
+<div class="experience-header">
+
+<img class="company-logo" src="icons/jnj.png">
+
+<div>
+
+<h3>Johnson & Johnson</h3>
+
+<p class="job-title">
+Robotics Software Engineer
+</p>
+
+</div>
+
+</div>
+
+<ul>
+
+<li>Developed auto-assignment algorithms for Ottava surgical robotic arms.</li>
+
+<li>Built client-server architecture using gRPC for GUI-platform communication.</li>
+
+<li>Implemented robotic coordination logic during tele-operation.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<section id="resume" class="section">
+
+<h2>Resume</h2>
+
+<div class="resume-container">
+
+<div class="resume-header">
+
+<span>📄 Xinyi Wang Resume</span>
+
+<a class="resume-download"
+href="assets/Xinyi_Wang_Resume.pdf"
+download>
+
+Download PDF
+
+</a>
+
+</div>
+
+<div class="resume-viewer">
+
+<iframe
+src="assets/Xinyi_Wang_Resume.pdf">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>
+📧 Email:
+<a href="mailto:wang6185@purdue.edu">
+wang6185@purdue.edu
+</a>
+</p>
+
+<p>
+💻 GitHub:
+<a href="https://github.com/cynniewg-glitch">
+github.com/cynniewg-glitch
+</a>
+</p>
+
+<p>
+📍 Purdue University, West Lafayette
+</p>
+
+</section>
+
+
+
+<footer>
+
+<p>© Xinyi Wang</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 
