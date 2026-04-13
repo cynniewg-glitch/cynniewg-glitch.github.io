@@ -198,7 +198,7 @@ const NewsTimeline: React.FC<NewsTimelineProps> = ({ news, showHeader: _showHead
   const termHighlight = tc.highlight;
   const termError = tc.error;
   const termSuccess = tc.success;
-  const termWarning = tc.warning;
+  // const termWarning = tc.warning;
   const termSecondary = tc.secondary;
   
   // Type colors (for ANSI-like color coding)
