@@ -1,0 +1,92 @@
+{
+  "_comment": "Your basic info. Edit the values below, then run: npm run dev",
+
+  "template": "terminal",
+  "components": {},
+  "sections": [
+    "hero", "bio", "selectedPublications",
+    "journey", "skills", "teaching",
+    "contact", "footer"
+  ],
+
+  "name": {
+    "full": "Xinyi Wang",
+    "first": "Xinyi",
+    "nickname": "Cynnie",
+    "last": "Wang",
+    "display": "Xinyi Wang",
+    "authorVariants": ["Xinyi Wang", "Wang, Xinyi"]
+  },
+
+  "title": "Hello! I'm Xinyi",
+  "tagline": "PhD Student at Purdue University working on human-centered robotics and interactive AI systems.",
+  "avatar": "selfie-1.JPG",
+
+  "terminal": {
+    "username": "xinyi",
+    "rotatingSubtitles": [
+      "human-centered robotics",
+      "human-multi-robot interaction",
+      "LLMs for robotics",
+      "multimodal human-AI interfaces",
+      "AI-assisted skill learning"
+    ],
+    "skills": [
+      "Human-Robot Interaction",
+      "Human-Multi-Robot Interaction",
+      "Large Language Models for Robotics",
+      "Multimodal Human-AI Interaction",
+      "AI-Assisted Skill Learning",
+      "Surgical Robotics"
+    ],
+    "timezone": "America/Indiana/Indianapolis"
+  },
+
+  "contact": {
+    "email": "Cynniewg@gmail.com",
+    "academicEmail": "wang6185@purdue.edu",
+    "hiringEmail": "Cynniewg@gmail.com",
+    "location": "Purdue University, West Lafayette"
+  },
+
+  "social": {
+    "github": "https://github.com/cynniewg-glitch",
+    "linkedin": "https://www.linkedin.com/in/xinyi-wang-520269228",
+    "medium": "",
+    "googleScholar": "",
+    "twitter": "",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": "/Xinyi_Wang_Resume.pdf"
+  },
+
+  "pets": [
+    {
+      "name": "Pudding",
+      "emoji": "🐱",
+      "image": "/images/pudding.jpg",
+      "title": "My Cat",
+      "description": "Pudding in daily life."
+    }
+  ],
+
+  "features": {
+    "publications": true,
+    "projects": false,
+    "articles": false,
+    "experience": true,
+    "news": false,
+    "pets": false,
+    "guide": false
+  },
+
+  "heroSocialIcons": [
+    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#333" },
+    { "platform": "linkedin", "icon": "FaLinkedin", "label": "LinkedIn", "color": "#0077B5" },
+    { "platform": "blog", "icon": "TbFileCv", "label": "CV", "color": "#e74c3c" }
+  ],
+
+  "selectedPublicationIds": ["chi2026-guidelines", "chi2026-agentcoach", "chi2026-justshape"]
+}

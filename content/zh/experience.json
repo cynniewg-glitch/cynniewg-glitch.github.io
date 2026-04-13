@@ -1,0 +1,54 @@
+{
+  "education": {
+    "courses": [
+      {
+        "course": "Ph.D. Student, College of Engineering",
+        "institution": "Purdue University",
+        "year": "2023 - Present"
+      },
+      {
+        "course": "M.S. in Robotics and Control",
+        "institution": "Northwestern University",
+        "year": "2021 - 2023"
+      },
+      {
+        "course": "B.Eng. in Energy and Power Engineering",
+        "institution": "Xi'an Jiaotong University",
+        "year": "2017 - 2021"
+      }
+    ]
+  },
+  "reviewing": [],
+  "timeline": [
+    {
+      "title": "PhD Student, College of Engineering",
+      "company": "Purdue University",
+      "companyUrl": "https://www.purdue.edu",
+      "location": "West Lafayette, IN",
+      "start": "2023-08-01",
+      "category": "academic",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "Human-computer interaction, human-robot interaction, and AI-assisted skill learning.",
+      "highlights": [
+        "Researching human-robot interaction and interactive intelligent systems.",
+        "Developing AI-assisted methods for skill learning and multimodal interaction.",
+        "Published at CHI and ICRA venues."
+      ]
+    },
+    {
+      "title": "Robotics Software Engineer Intern",
+      "company": "Johnson & Johnson",
+      "companyUrl": "https://www.jnj.com",
+      "location": "Remote",
+      "start": "2022-06-01",
+      "end": "2022-09-30",
+      "category": "industry",
+      "roleType": "sde",
+      "highlights": [
+        "Developed software for robotic surgical systems.",
+        "Contributed to the integration of computer vision modules in surgical workflows."
+      ]
+    }
+  ]
+}
