@@ -173,7 +173,7 @@ const Experience: React.FC = () => {
   }
 
   const termParam = tc.param
-  const termWarning = tc.warning
+  // const termWarning = tc.warning
 
   return (
     <Box w="full" minH="100vh" bg={bg} py={8}>
